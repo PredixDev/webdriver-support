@@ -1,0 +1,29 @@
+{
+    "name": "webdriver-support",
+    "description": "Testing dependencies for webdriverjs + mocha + chai",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PredixDev/webdriver-support.git"
+    },
+    "version": "2.2.1",
+    "main": "./src/js/webdriver-factory/index",
+    "dependencies": {
+        "portfinder": "~0.4.0",
+        "phantomjs": "~1.9.16",
+        "merge": "~1.2.0",
+        "mocha": "~2.2.1",
+        "selenium-webdriver": "2.44.0",
+        "chromedriver": "~2.14.1",
+        "q": "~2.0.2"
+    },
+    "peerDependencies": {
+        "chai": "2.x",
+        "chai-as-promised": "~4.3.0"
+    },
+    "devDependencies": {
+        "grunt": ">=0.4.1"
+    },
+    "scripts": {
+        "install": "node verifyGlobalPackages.js"
+    }
+}
