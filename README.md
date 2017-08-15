@@ -70,7 +70,7 @@ Unit tests using Mocha + Chai + Sinon + Karma are supported by the https://githu
 
 ## Writing Tests
 
-See the documentation of Mocha (http://visionmedia.github.io/mocha/ with links to Sinon and Chai) and WebdriverJs (https://code.google.com/p/selenium/wiki/WebDriverJs)
+See the documentation of Mocha (http://mochajs.org/ with links to Sinon and Chai) and WebdriverJs (https://code.google.com/p/selenium/wiki/WebDriverJs)
 
 ## CI Integration
 
